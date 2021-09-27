@@ -1,0 +1,27 @@
+.card-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+.card-list-title{
+  text-align: center;
+  padding: 20px 0;
+}
+@media (max-width: 600px) {
+  .card-list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+}
