@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="about-title">About Me</h1>
       <div className="about-info">
         <section className="about-img">
-          <img src="https://www.howitworksdaily.com/wp-content/uploads/2015/08/131216Cute-dog-sticking-out-his-tongue-wallpaper-200x200.jpg" />
+          <img alt="dog" src="https://www.howitworksdaily.com/wp-content/uploads/2015/08/131216Cute-dog-sticking-out-his-tongue-wallpaper-200x200.jpg" />
         </section>
         <section className="about-description">
           <p>

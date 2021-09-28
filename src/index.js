@@ -1,22 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import CardList from "./CardList";
-import Cover from "./Cover";
-import About from "./About";
-import NavBar from "./NarvBar";
-import {projects} from "./projects.js";
+import App from "./App";
+
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
-  <div>
-    <NavBar/>
-    <Cover/>
-    <About/>
-    <CardList projects={projects}/>
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

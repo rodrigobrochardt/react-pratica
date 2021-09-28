@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./card.css";
 
 const Card = ({ id, title, description, link }) => {
@@ -6,7 +6,7 @@ const Card = ({ id, title, description, link }) => {
     <div className="card">
       <img
         className="card-img"
-        alt="image project"
+        alt="project"
         src="https://via.placeholder.com/400x200"
       ></img>
       <div className="card-info">
